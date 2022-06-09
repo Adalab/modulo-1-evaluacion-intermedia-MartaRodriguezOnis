@@ -7,16 +7,14 @@
     font-family: 'Rubik', sans-serif;
 }
 .header {
-    width: 100vw;
     background-color: white;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position:sticky;
-
+    position: sticky;
 }
 .logo {
     width: 155px;
