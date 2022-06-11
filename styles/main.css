@@ -46,16 +46,17 @@
     color: var(--color-grey)
 }
 .main {
-    background-color: #3CDBC0;
+    background-color: var(--color-backgreen);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF
+    color: var(--color-h1)
 }
 .title {
     font-size: 30px;
     font-weight: 800;
     text-align: center;
     width: 50%;
+    text-transform: capitalize;
 }
