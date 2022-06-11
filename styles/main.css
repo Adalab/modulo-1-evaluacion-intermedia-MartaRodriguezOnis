@@ -5,6 +5,10 @@
 }
 :root {
     font-family: 'Rubik', sans-serif;
+    --color-grey:#4a4a4a;
+    --color-backgreen:#3CDBC0;
+    --color-h1:#FFFFFF;
+
 }
 .header {
     width: 100%;
@@ -18,23 +22,28 @@
     position: sticky;
     top:-10px;
 }
-.logo {
+.header .logo {
     width: 155px;
 }
 .imglogo {
     width: 100%;
 }
-.menu {
+.header .menu {
     font-size: 16px;
     margin-top: 10px;
-    color:#4a4a4a;
+    
 }
 .menu li {
     display:inline ;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .menu .blog {
     margin-right:20px;
+}
+.menu a {
+    text-decoration: none;
+    color: var(--color-grey)
 }
 .main {
     background-color: #3CDBC0;
