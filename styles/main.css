@@ -8,6 +8,8 @@
     --color-grey:#4a4a4a;
     --color-backgreen:#3CDBC0;
     --color-h1:#FFFFFF;
+    font-size: 62.5%;
+    /*1 rem=10px */
 
 }
 .header {
@@ -19,20 +21,20 @@
     align-items: center;
     position: fixed;
     top:0;
-    padding-bottom: 13px;
+    padding-bottom: 1.3rem;
 }
 .header .logo {
-    width: 155px;
+    width: 15.5rem;
 }
 .imglogo {
     width: 100%;
-    padding: 10px 20px 0 20px;
+    padding: 1rem 2rem 0 2rem;
 }
 .header .menu {
-    margin-top: 10px;
+    padding-top: 1rem;
 }
 .menu li {
-    font-size: 16px;
+    font-size: 1.6rem;
     display:inline ;
     text-decoration: none;
     text-transform: uppercase;
@@ -40,7 +42,7 @@
 .menu a {
     text-decoration: none;
     color: var(--color-grey);
-    padding: 10px;
+    padding: 1rem;
 }
 .main {
     background-color: var(--color-backgreen);
@@ -52,7 +54,7 @@
     color: var(--color-h1)
 }
 .main .title {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     text-align: center;
     width: 11ch;
